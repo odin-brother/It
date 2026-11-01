@@ -11,8 +11,7 @@ class Cat:
         print(f"Кіт {self.name} грається з іграшкою: {toy.name}")
 
 
-# Запуск симуляції
 my_toy = Toy("Мишка")
-my_cat = Cat("Мурчик")
+my_cat = Cat("Мур")
 
 my_cat.play(my_toy)
